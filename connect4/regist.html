@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Sign up</title>
+ <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+ <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <form action="insert.php" method="post">
+    <div class="regist">
+        <div id="header">
+            <h2 align="center">Sign up</h2>
+        </div>
+        <div id="content">
+            <p align="center">Username:
+                <input id="uname" type="text" name="user" placeholder="Enter new username">
+            </p>
+            <p align="center">Password:<br>
+                <input id="upass" type="password" name="psw" placeholder="Enter password">
+            </p>
+            <p align="center">Confirm:<br>
+                <input id="repeat" type="password" name="rep" placeholder="Repeat password">
+            </p>
+            <p align="center">Email:<br>
+                <input id="email" type="text" name="email_address" placeholder="Email address">
+            </p>
+        </div>
+        <input type="submit" value="Regist">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="index.php"><input type="button" class="btn btn-info" name="back" value="Back"></a>
+    </div>
+    </form>
+</body>
+</html>

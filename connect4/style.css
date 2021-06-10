@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Aclonica';
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 0 #000,-2px -2px 0 #000,-2px 2px 0 #000,2px -2px 0 #000;
+    background-image: url("https://store-images.s-microsoft.com/image/apps.41929.13682804428841430.68f0af32-8ea6-49bc-b838-d812036d39e9.80b85532-1417-4579-9726-abd1699a6297?mode=scale&q=90&h=1080&w=1920");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+}
+.box{
+    width: 390px;
+    height: 390px;
+    border: solid 0px #ddd;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -400px;
+    text-align: center;
+}
+.input_box{
+    width:350px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.regist{
+    width: 390px;
+    height: 390px;
+    border: solid 0px #ddd;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -400px;
+    text-align: center;
+}
